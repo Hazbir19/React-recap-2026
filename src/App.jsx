@@ -4,15 +4,19 @@ import "./App.css";
 import Counter from "./components/Counter";
 import UserDetails from "./components/UserDetails";
 import Form from "./components/Form";
+import Mounting from "./components/ComP_Life_Cycle/Mounting";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
     <>
       <div>React practise</div>
       <Massage />
-      {/* <Counter /> */}
+      <Counter name="farhad" />
+      <HoverCounter />
       {/* <UserDetails></UserDetails> */}
-      <Form />
+      {/* <Form />
+      <Mounting /> */}
     </>
   );
 }
